@@ -1,0 +1,515 @@
+/* ==========================================================================
+   MODULE 7: INTELLIGENT TICKET ROUTING & AGENT MATCHING (MODERNIZED)
+   ========================================================================== */
+
+.routing-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.routing-header,
+.routing-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  box-shadow: 0 4px 16px -2px rgba(15, 23, 42, 0.05);
+}
+
+.routing-header {
+  padding: 24px 28px;
+}
+
+.routing-header h1 {
+  max-width: 850px;
+  color: #0f172a;
+  font-size: clamp(1.8rem, 2.8vw, 2.3rem);
+  font-weight: 900;
+  letter-spacing: -0.025em;
+  line-height: 1.25;
+}
+
+.routing-header > p:last-child {
+  margin-top: 10px;
+  max-width: 900px;
+  color: #64748b;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.routing-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(300px, 0.85fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.routing-main,
+.routing-side {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  min-width: 0;
+}
+
+.routing-card {
+  padding: 24px;
+}
+
+.routing-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.routing-heading h2 {
+  color: #0f172a;
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+.routing-mode,
+.routing-sample-flag {
+  color: #64748b;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.routing-form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.routing-form label,
+.routing-team-form label,
+.routing-setting {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: #1e293b;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+.routing-form input,
+.routing-form select,
+.routing-form textarea,
+.routing-team-form input,
+.routing-team-form select,
+.routing-setting input,
+.routing-setting select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  background: #f8fafc;
+  color: #0f172a;
+  font-size: 0.9rem;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.routing-form input:focus,
+.routing-form select:focus,
+.routing-form textarea:focus,
+.routing-team-form input:focus,
+.routing-team-form select:focus,
+.routing-setting input:focus,
+.routing-setting select:focus {
+  background: #ffffff;
+  outline: none;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+}
+
+.routing-form small {
+  color: #dc2626;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.routing-wide {
+  grid-column: 1 / -1;
+}
+
+.routing-actions {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.routing-samples {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-top: 16px;
+  margin-top: 16px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.routing-samples span {
+  width: 100%;
+  color: #64748b;
+  font-size: 0.74rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.routing-samples button {
+  border: 1px solid #cbd5e1;
+  background: #f8fafc;
+  color: #334155;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.routing-samples button:hover {
+  background: #eef2ff;
+  border-color: #c7d2fe;
+  color: #4f46e5;
+}
+
+.routing-status {
+  padding: 4px 10px;
+  border-radius: 9999px;
+  background: #e0e7ff;
+  color: #4338ca;
+  font-size: 0.74rem;
+  font-weight: 700;
+}
+
+.status-escalation-recommended,
+.status-escalated {
+  background: #ffedd5;
+  color: #c2410c;
+  border: 1px solid #fed7aa;
+}
+
+.status-awaiting-manual-review {
+  background: #fee2e2;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+}
+
+.routing-critical {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 14px 16px;
+  border: 1px solid #fca5a5;
+  border-radius: 12px;
+  background: #fef2f2;
+  color: #991b1b;
+}
+
+.routing-critical span {
+  font-size: 0.86rem;
+}
+
+.routing-explanation,
+.routing-handling {
+  margin: 12px 0;
+  color: #334155;
+  line-height: 1.6;
+  font-size: 0.92rem;
+}
+
+.routing-escalations,
+.routing-alternatives {
+  margin-top: 14px;
+  padding: 16px;
+  border-radius: 14px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+}
+
+.routing-escalations h3,
+.routing-alternatives h3,
+.routing-audit-grid h3 {
+  margin-bottom: 8px;
+  color: #0f172a;
+  font-size: 0.95rem;
+  font-weight: 800;
+}
+
+.routing-escalations p,
+.routing-alternatives p {
+  padding: 4px 0;
+  color: #334155;
+  font-size: 0.88rem;
+  margin: 0;
+}
+
+.routing-escalations small {
+  display: block;
+  margin-top: 6px;
+  color: #64748b;
+  font-size: 0.78rem;
+}
+
+.routing-filters {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(110px, 1fr));
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.routing-filters select,
+.routing-filters input {
+  min-width: 0;
+  padding: 9px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #0f172a;
+  font-size: 0.86rem;
+  outline: none;
+}
+
+.routing-table-wrap {
+  overflow-x: auto;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+}
+
+.routing-table-wrap table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.routing-table-wrap th,
+.routing-table-wrap td {
+  padding: 12px 14px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid #f1f5f9;
+  font-size: 0.86rem;
+  color: #1e293b;
+}
+
+.routing-table-wrap th {
+  background: #f8fafc;
+  color: #475569;
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+}
+
+.routing-table-wrap td small,
+.routing-audit-grid small {
+  display: block;
+  margin-top: 3px;
+  color: #64748b;
+}
+
+.routing-empty {
+  padding: 20px 0;
+  color: #64748b;
+  font-size: 0.88rem;
+  text-align: center;
+}
+
+.routing-audit-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 20px;
+  padding-top: 17px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.routing-audit-grid p {
+  padding: 7px 0;
+  border-bottom: 1px solid #f1f5f9;
+  color: #334155;
+  font-size: 0.84rem;
+}
+
+.routing-team-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-height: 550px;
+  overflow-y: auto;
+}
+
+.routing-team {
+  padding: 14px;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  background: #ffffff;
+  transition: all 0.2s ease;
+}
+
+.routing-team:hover {
+  border-color: #cbd5e1;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.04);
+}
+
+.routing-team-title,
+.routing-workload {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+
+.routing-team-title strong {
+  color: #0f172a;
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.routing-team > p {
+  margin-top: 4px;
+  color: #64748b;
+  font-size: 0.8rem;
+}
+
+.team-active {
+  color: #16a34a;
+  font-size: 0.72rem;
+  font-weight: 700;
+  background: #dcfce7;
+  padding: 2px 8px;
+  border-radius: 9999px;
+}
+
+.team-inactive {
+  color: #dc2626;
+  font-size: 0.72rem;
+  font-weight: 700;
+  background: #fee2e2;
+  padding: 2px 8px;
+  border-radius: 9999px;
+}
+
+.routing-workload {
+  margin-top: 10px;
+  color: #475569;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.routing-progress {
+  height: 6px;
+  margin: 6px 0;
+  overflow: hidden;
+  border-radius: 9999px;
+  background: #e2e8f0;
+}
+
+.routing-progress span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #4f46e5, #6366f1);
+}
+
+.routing-team > small {
+  color: #64748b;
+  font-size: 0.72rem;
+}
+
+.routing-team-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.routing-team-editor {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.routing-team-editor summary {
+  cursor: pointer;
+  color: #4f46e5;
+  font-weight: 700;
+  font-size: 0.86rem;
+}
+
+.routing-team-form {
+  display: grid;
+  gap: 10px;
+  padding-top: 12px;
+}
+
+.routing-team-form select[multiple] {
+  min-height: 112px;
+}
+
+.routing-team-form > small {
+  color: #64748b;
+}
+
+.routing-team-form > .primary-button,
+.routing-team-form > .secondary-button {
+  justify-self: start;
+}
+
+.routing-setting {
+  margin-bottom: 12px;
+}
+
+.routing-disclosure {
+  margin-top: 12px;
+  color: #64748b;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.routing-alert {
+  padding: 12px 16px;
+  border-radius: 12px;
+  font-size: 0.88rem;
+}
+
+.routing-alert.error {
+  border: 1px solid #fecaca;
+  background: #fef2f2;
+  color: #b91c1c;
+}
+
+.routing-alert.success {
+  border: 1px solid #bbf7d0;
+  background: #f0fdf4;
+  color: #15803d;
+}
+
+@media (max-width: 980px) {
+  .routing-layout {
+    grid-template-columns: 1fr;
+  }
+  .routing-team-list {
+    max-height: none;
+  }
+}
+
+@media (max-width: 680px) {
+  .routing-header {
+    padding: 20px 18px;
+  }
+  .routing-form,
+  .routing-filters,
+  .routing-audit-grid {
+    grid-template-columns: 1fr;
+  }
+  .routing-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

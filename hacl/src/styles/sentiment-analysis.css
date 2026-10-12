@@ -1,0 +1,459 @@
+/* ==========================================================================
+   MODULE 3: SENTIMENT ANALYSIS & EMOTIONAL INTELLIGENCE (MODERNIZED)
+   ========================================================================== */
+
+.sentiment-analysis-page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.sentiment-header {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  padding: 24px 28px;
+  box-shadow: 0 4px 16px -2px rgba(15, 23, 42, 0.05);
+}
+
+.sentiment-header h1 {
+  font-size: clamp(1.8rem, 2.8vw, 2.3rem);
+  font-weight: 900;
+  color: #0f172a;
+  letter-spacing: -0.025em;
+  line-height: 1.25;
+  max-width: 820px;
+}
+
+.sentiment-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(320px, 0.95fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.sentiment-main-column,
+.sentiment-side-column {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.sentiment-panel {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: 0 2px 10px rgba(15, 23, 42, 0.04);
+}
+
+.panel-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.sentiment-eyebrow {
+  margin-bottom: 6px;
+  font-size: 0.76rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #6366f1;
+}
+
+.field-label {
+  display: block;
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 10px;
+}
+
+#customer-message {
+  width: 100%;
+  resize: vertical;
+  min-height: 170px;
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding: 14px 16px;
+  color: #0f172a;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+#customer-message:focus {
+  background: #ffffff;
+  outline: none;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+}
+
+.input-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-top: 14px;
+}
+
+.char-counter,
+.helper-copy,
+.analysis-time {
+  color: #64748b;
+  font-size: 0.82rem;
+}
+
+.button-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.form-error {
+  margin-top: 12px;
+  color: #dc2626;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-size: 0.86rem;
+  font-weight: 600;
+}
+
+.example-row {
+  margin-top: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.example-button {
+  border: 1px solid #cbd5e1;
+  background: #f8fafc;
+  color: #334155;
+  padding: 8px 14px;
+  border-radius: 9999px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.example-button:hover {
+  background: #eef2ff;
+  border-color: #c7d2fe;
+  color: #4f46e5;
+  transform: translateY(-1px);
+}
+
+.helper-copy {
+  margin-top: 12px;
+  line-height: 1.5;
+}
+
+.sentiment-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(110px, 1fr));
+  gap: 12px;
+}
+
+.sentiment-summary-card {
+  min-height: 105px;
+  padding: 16px;
+  border-radius: 14px;
+  border: 1px solid #e2e8f0;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.sentiment-summary-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05);
+}
+
+.sentiment-summary-card span {
+  color: #64748b;
+  font-size: 0.74rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.sentiment-summary-card strong {
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: #0f172a;
+}
+
+.sentiment-summary-card.positive {
+  border-color: #a7f3d0;
+  background: #f0fdf4;
+}
+.sentiment-summary-card.positive strong { color: #059669; }
+
+.sentiment-summary-card.neutral {
+  border-color: #bfdbfe;
+  background: #eff6ff;
+}
+.sentiment-summary-card.neutral strong { color: #2563eb; }
+
+.sentiment-summary-card.negative {
+  border-color: #fed7aa;
+  background: #fff7ed;
+}
+.sentiment-summary-card.negative strong { color: #ea580c; }
+
+.sentiment-summary-card.frustrated {
+  border-color: #fecdd3;
+  background: #fff1f2;
+}
+.sentiment-summary-card.frustrated strong { color: #e11d48; }
+
+.sentiment-summary-card.total {
+  border-color: #e2e8f0;
+  background: #f8fafc;
+}
+.sentiment-summary-card.total strong { color: #4f46e5; }
+
+.history-toolbar {
+  margin-bottom: 0;
+}
+
+.history-table-wrap {
+  margin-top: 18px;
+  overflow-x: auto;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+}
+
+.history-table-wrap table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.history-table-wrap table th {
+  background: #f8fafc;
+  color: #475569;
+  font-weight: 700;
+  padding: 12px 14px;
+  text-align: left;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.history-table-wrap table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid #f1f5f9;
+  color: #1e293b;
+  font-size: 0.88rem;
+}
+
+.sentiment-selected-row {
+  background: #f5f3ff !important;
+}
+
+.mini-badge,
+.sentiment-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  border-radius: 9999px;
+  padding: 4px 10px;
+}
+
+.sentiment-badge {
+  font-size: 0.95rem;
+  padding: 6px 14px;
+  margin-top: 6px;
+}
+
+.mini-badge.positive,
+.sentiment-positive {
+  background: #dcfce7;
+  color: #15803d;
+  border: 1px solid #bbf7d0;
+}
+
+.mini-badge.neutral,
+.sentiment-neutral {
+  background: #e0f2fe;
+  color: #0369a1;
+  border: 1px solid #bae6fd;
+}
+
+.mini-badge.negative,
+.sentiment-negative {
+  background: #ffedd5;
+  color: #c2410c;
+  border: 1px solid #fed7aa;
+}
+
+.mini-badge.frustrated,
+.sentiment-frustrated {
+  background: #ffe4e6;
+  color: #be123c;
+  border: 1px solid #fecdd3;
+}
+
+.result-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.result-panel {
+  position: sticky;
+  top: 16px;
+}
+
+.result-block {
+  margin: 18px 0;
+}
+
+.frustration-score {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.frustration-score-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.frustration-score-bar {
+  width: 100%;
+  height: 10px;
+  border-radius: 9999px;
+  background: #e2e8f0;
+  overflow: hidden;
+}
+
+.frustration-score-bar span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #10b981 0%, #f59e0b 50%, #ef4444 100%);
+}
+
+.frustration-score p {
+  color: #64748b;
+  font-size: 0.82rem;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 0;
+  border-top: 1px solid #f1f5f9;
+}
+
+.detail-row:first-of-type {
+  border-top: none;
+}
+
+.detail-row span {
+  color: #64748b;
+  font-size: 0.88rem;
+}
+
+.detail-row strong {
+  color: #0f172a;
+  text-align: right;
+  font-weight: 700;
+}
+
+.explanation-box {
+  margin-top: 20px;
+  border-radius: 14px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 16px;
+}
+
+.explanation-box h3 {
+  margin-bottom: 8px;
+  color: #0f172a;
+  font-size: 0.95rem;
+  font-weight: 800;
+}
+
+.explanation-box p {
+  color: #334155;
+  line-height: 1.6;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.empty-result,
+.empty-history {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 220px;
+  text-align: center;
+  color: #64748b;
+  background: #f8fafc;
+  border-radius: 12px;
+  border: 1px dashed #cbd5e1;
+}
+
+@media (max-width: 980px) {
+  .sentiment-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .result-panel {
+    position: static;
+  }
+}
+
+@media (max-width: 680px) {
+  .sentiment-header {
+    padding: 20px 18px;
+  }
+
+  .sentiment-summary-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .input-toolbar,
+  .button-row,
+  .panel-header-row,
+  .result-header,
+  .detail-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .stage-select {
+    width: 100%;
+  }
+}

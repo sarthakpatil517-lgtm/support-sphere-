@@ -1,0 +1,1585 @@
+{
+  "tickets": [
+    {
+      "id": "TK-1791752636544-NVFI",
+      "customer_id": "customer-demo",
+      "customer_name": "Jane Cooper (Customer)",
+      "subject": "im not getting service",
+      "description": "nooot getinf payment",
+      "category": "Refunds and Cancellations",
+      "status": "Resolved",
+      "assigned_agent": "Automated Knowledge Base",
+      "assigned_team": "Automated Self-Service Knowledge Base",
+      "assigned_user_id": null,
+      "reference_number": null,
+      "resolution_notes": "Resolved automatically via Automated Knowledge Base guidance.",
+      "dashboardUrgency": "Low",
+      "dashboardPriority": 18.65,
+      "triage": {
+        "sentiment": "Neutral",
+        "frustrationScore": 0,
+        "urgency": "Low",
+        "customerTier": "Silver",
+        "customerValueScore": 41.65,
+        "priorityScore": 18.65,
+        "priorityCategory": "Low Priority",
+        "routingLevel": "Automated Knowledge Base",
+        "assignedTeam": "Automated Self-Service Knowledge Base",
+        "assignedAgent": "Automated Support AI Agent",
+        "escalationReasons": [],
+        "isEscalatedToSenior": false,
+        "isKbDeflected": true,
+        "kbSolution": "Common payment resolutions:\n1. Payment Deducted but Order Not Confirmed: If your bank deducted the amount but no order ID was issued, it is usually a temporary bank authorization hold. It automatically reverses in 24–48 hours.\n2. Card Declined: Ensure international or online transactions are enabled on your card, and that the CVV and billing zip code match your card statement.\n3. Alternative Options: We support digital wallets (Apple Pay, Google Pay, PayPal) and direct bank transfers for instant checkout without card processing drops.\n4. Double Charge: Duplicate authorizations are routinely released by banks within 3 business days without manual intervention.",
+        "kbArticleId": "KB-104",
+        "slaResponseTime": "Instant (< 1 second)"
+      },
+      "sla_policy": "Low SLA Standard",
+      "sla_start_time": "2026-10-11T21:03:56.544Z",
+      "response_deadline": "2026-10-12T05:03:56.544Z",
+      "resolution_deadline": "2026-10-13T21:03:56.544Z",
+      "first_response_at": null,
+      "resolved_at": "2026-10-11T21:03:56.544Z",
+      "response_sla_status": "Within SLA",
+      "resolution_sla_status": "Met",
+      "current_risk_status": "Met",
+      "created_at": "2026-10-11T21:03:56.544Z",
+      "updated_at": "2026-10-11T21:03:56.544Z"
+    },
+    {
+      "id": "TK-1791752488713-W3ID",
+      "customer_id": "fa59c857-7420-46f6-a543-690c757a35a6",
+      "customer_name": "Alice Johnson",
+      "subject": "Urgent: Unable to access billing invoices for Q3",
+      "description": "We need our Q3 invoices immediately for tax audit compliance. Please assist.",
+      "category": "Billing and Payments",
+      "status": "Open",
+      "assigned_agent": "Senior Staff Specialist (Escalated)",
+      "assigned_team": "Senior Staff & Executive Escalations",
+      "assigned_user_id": "user-senior-demo",
+      "reference_number": "INV-TAX-9988",
+      "resolution_notes": null,
+      "dashboardUrgency": "High",
+      "dashboardPriority": 78,
+      "triage": {
+        "sentiment": "Negative",
+        "frustrationScore": 68,
+        "urgency": "High",
+        "customerTier": "Gold",
+        "customerValueScore": 82,
+        "priorityScore": 78,
+        "priorityCategory": "High Priority",
+        "routingLevel": "Tier-1 Support Team",
+        "assignedTeam": "Billing and Financial Services",
+        "assignedAgent": "Senior Support Staff",
+        "isEscalatedToSenior": true
+      },
+      "sla_policy": "High SLA Standard",
+      "sla_start_time": "2026-10-11T21:01:28.712Z",
+      "response_deadline": "2026-10-11T22:01:28.712Z",
+      "resolution_deadline": "2026-10-12T05:01:28.712Z",
+      "first_response_at": "2026-10-11T21:01:28.823Z",
+      "resolved_at": null,
+      "response_sla_status": "Met",
+      "resolution_sla_status": "Within SLA",
+      "current_risk_status": "Within SLA",
+      "created_at": "2026-10-11T21:01:28.712Z",
+      "updated_at": "2026-10-11T21:01:28.823Z"
+    },
+    {
+      "id": "TK-1791752458985-VX7R",
+      "customer_id": "f1cb3d73-0d7a-45e2-8e4e-38ce25dcc536",
+      "customer_name": "Alice Johnson",
+      "subject": "Urgent: Unable to access billing invoices for Q3",
+      "description": "We need our Q3 invoices immediately for tax audit compliance. Please assist.",
+      "category": "Billing and Payments",
+      "status": "Open",
+      "assigned_agent": "Senior Staff Specialist (Escalated)",
+      "assigned_team": "Senior Staff & Executive Escalations",
+      "assigned_user_id": "user-senior-demo",
+      "reference_number": "INV-TAX-9988",
+      "resolution_notes": null,
+      "dashboardUrgency": "High",
+      "dashboardPriority": 78,
+      "triage": {
+        "sentiment": "Negative",
+        "frustrationScore": 68,
+        "urgency": "High",
+        "customerTier": "Gold",
+        "customerValueScore": 82,
+        "priorityScore": 78,
+        "priorityCategory": "High Priority",
+        "routingLevel": "Tier-1 Support Team",
+        "assignedTeam": "Billing and Financial Services",
+        "assignedAgent": "Senior Support Staff",
+        "isEscalatedToSenior": true
+      },
+      "sla_policy": "High SLA Standard",
+      "sla_start_time": "2026-10-11T21:00:58.985Z",
+      "response_deadline": "2026-10-11T22:00:58.985Z",
+      "resolution_deadline": "2026-10-12T05:00:58.985Z",
+      "first_response_at": null,
+      "resolved_at": null,
+      "response_sla_status": "Within SLA",
+      "resolution_sla_status": "Within SLA",
+      "current_risk_status": "Within SLA",
+      "created_at": "2026-10-11T21:00:58.985Z",
+      "updated_at": "2026-10-11T21:00:58.985Z"
+    },
+    {
+      "id": "TK-1791749427051-CNF3",
+      "customer_id": "1d9defc8-a8c4-4570-94e7-b414418c99b6",
+      "customer_name": "Prajwal Jadhav",
+      "subject": "im not getting service",
+      "description": "my laptop service i want but its not getting",
+      "category": "Product Issues",
+      "status": "Open",
+      "assigned_agent": "Support Agent",
+      "assigned_team": "General Customer Support",
+      "assigned_user_id": null,
+      "reference_number": null,
+      "resolution_notes": null,
+      "dashboardUrgency": "Low",
+      "dashboardPriority": 18.65,
+      "triage": {
+        "sentiment": "Neutral",
+        "frustrationScore": 0,
+        "urgency": "Low",
+        "customerTier": "Silver",
+        "customerValueScore": 41.65,
+        "priorityScore": 18.65,
+        "priorityCategory": "Low Priority",
+        "routingLevel": "Tier-1 Support Team",
+        "assignedTeam": "General Customer Support",
+        "assignedAgent": "Support Agent",
+        "escalationReasons": [],
+        "isEscalatedToSenior": false,
+        "isKbDeflected": false,
+        "slaResponseTime": "< 8 hours"
+      },
+      "sla_policy": "Low SLA Standard",
+      "sla_start_time": "2026-10-11T20:10:27.051Z",
+      "response_deadline": "2026-10-12T04:10:27.051Z",
+      "resolution_deadline": "2026-10-13T20:10:27.051Z",
+      "first_response_at": null,
+      "resolved_at": null,
+      "response_sla_status": "Within SLA",
+      "resolution_sla_status": "Within SLA",
+      "current_risk_status": "Within SLA",
+      "created_at": "2026-10-11T20:10:27.051Z",
+      "updated_at": "2026-10-11T20:10:27.051Z"
+    },
+    {
+      "id": "TK-1791724884077-5PXL",
+      "customer_id": "customer-demo",
+      "subject": "Need help with billing",
+      "description": "The invoice total is higher than expected and I need a clarification.",
+      "category": "Billing and Payments",
+      "status": "Open",
+      "assigned_agent": null,
+      "reference_number": "INV-3002",
+      "resolution_notes": null,
+      "created_at": "2026-10-11T13:21:24.077Z",
+      "updated_at": "2026-10-11T13:21:24.077Z",
+      "response_deadline": "2026-10-11T17:21:24.077Z",
+      "resolution_deadline": "2026-10-12T13:21:24.077Z",
+      "sla_policy": "Medium SLA Standard",
+      "sla_start_time": "2026-10-11T13:21:24.077Z",
+      "response_sla_status": "Breached",
+      "resolution_sla_status": "Within SLA",
+      "current_risk_status": "Breached"
+    },
+    {
+      "id": "TK-100101-A1B",
+      "customer_id": "customer-demo",
+      "subject": "Unable to access my account after password reset",
+      "description": "I reset my password but the app still says my credentials are invalid. I can no longer access my orders or saved address details.",
+      "category": "Account Access",
+      "status": "Open",
+      "assigned_agent": "Mila Brooks",
+      "reference_number": null,
+      "resolution_notes": null,
+      "created_at": "2026-10-11T01:21:13.425Z",
+      "updated_at": "2026-10-11T06:21:13.425Z",
+      "demo_data": true,
+      "response_deadline": "2026-10-11T05:21:13.425Z",
+      "resolution_deadline": "2026-10-12T01:21:13.425Z",
+      "sla_policy": "Medium SLA Standard",
+      "sla_start_time": "2026-10-11T01:21:13.425Z",
+      "response_sla_status": "Breached",
+      "resolution_sla_status": "At Risk",
+      "current_risk_status": "Breached"
+    },
+    {
+      "id": "TK-100102-D3E",
+      "customer_id": "customer-demo",
+      "subject": "Refund still pending for cancelled order",
+      "description": "I cancelled my order last week, but the refund has not appeared in my payment account. I need an update on the refund timeline.",
+      "category": "Refunds and Cancellations",
+      "status": "In Progress",
+      "assigned_agent": "Aiden Lee",
+      "reference_number": "ORD-44512",
+      "resolution_notes": null,
+      "created_at": "2026-10-10T01:21:13.425Z",
+      "updated_at": "2026-10-10T19:21:13.425Z",
+      "demo_data": true,
+      "response_deadline": "2026-10-10T05:21:13.425Z",
+      "resolution_deadline": "2026-10-11T01:21:13.425Z",
+      "sla_policy": "Medium SLA Standard",
+      "sla_start_time": "2026-10-10T01:21:13.425Z",
+      "response_sla_status": "Breached",
+      "resolution_sla_status": "Breached",
+      "current_risk_status": "Breached"
+    },
+    {
+      "id": "TK-100103-H7F",
+      "customer_id": "customer-demo",
+      "subject": "Replacement item arrived damaged",
+      "description": "The replacement package arrived with a cracked lid and the product does not match the description in my order. Please advise on the best next step.",
+      "category": "Product Issues",
+      "status": "Resolved",
+      "assigned_agent": "Noah Patel",
+      "reference_number": "PCK-9801",
+      "resolution_notes": "Replacement has been issued and tracked successfully.",
+      "created_at": "2026-10-08T13:21:13.425Z",
+      "updated_at": "2026-10-09T13:21:13.425Z",
+      "demo_data": true,
+      "response_deadline": "2026-10-08T17:21:13.425Z",
+      "resolution_deadline": "2026-10-09T13:21:13.425Z",
+      "sla_policy": "Medium SLA Standard",
+      "sla_start_time": "2026-10-08T13:21:13.425Z",
+      "response_sla_status": "Breached",
+      "resolution_sla_status": "Met",
+      "current_risk_status": "Breached"
+    },
+    {
+      "id": "TK-200201-CRT",
+      "customer_id": "cust-vip-101",
+      "customer_name": "Apex Corp (Enterprise VIP)",
+      "subject": "URGENT: Production payment gateway timeout on checkout",
+      "description": "Customers are receiving 504 Gateway Timeout during checkout on all major credit card transactions. Requires immediate senior engineer intervention.",
+      "category": "Billing and Payments",
+      "status": "Resolved",
+      "assigned_agent": "Marcus Sterling (Senior Lead)",
+      "assigned_user_id": "user-senior-demo",
+      "reference_number": "INC-8891",
+      "resolution_notes": "Rerouted gateway traffic to primary standby cluster and flushed connection pool.",
+      "dashboardUrgency": "Critical",
+      "dashboardPriority": 96,
+      "first_response_at": "2026-10-06T19:18:35.005Z",
+      "resolved_at": "2026-10-06T20:25:35.005Z",
+      "created_at": "2026-10-06T19:10:35.005Z",
+      "updated_at": "2026-10-06T21:10:35.005Z",
+      "response_deadline": "2026-10-06T19:25:35.005Z",
+      "resolution_deadline": "2026-10-06T21:10:35.005Z",
+      "sla_policy": "Critical SLA Standard",
+      "sla_start_time": "2026-10-06T19:10:35.005Z",
+      "response_sla_status": "Met",
+      "resolution_sla_status": "Met",
+      "current_risk_status": "Met"
+    },
+    {
+      "id": "TK-200202-ATK",
+      "customer_id": "cust-user-402",
+      "customer_name": "Global Retailers Inc",
+      "subject": "API Rate limit exceeded on order synchronization webhook",
+      "description": "Our backend sync job stopped processing at midnight. We need our rate limits increased or guidance on bulk batching.",
+      "category": "Technical Support",
+      "status": "Open",
+      "assigned_agent": "Alex Rivera (Support Agent)",
+      "assigned_user_id": "user-agent-demo",
+      "reference_number": "DEV-441",
+      "resolution_notes": null,
+      "dashboardUrgency": "High",
+      "dashboardPriority": 82,
+      "first_response_at": null,
+      "resolved_at": null,
+      "created_at": "2026-10-11T18:20:35.005Z",
+      "updated_at": "2026-10-11T18:20:35.005Z",
+      "response_deadline": "2026-10-11T19:20:35.005Z",
+      "resolution_deadline": "2026-10-12T02:20:35.005Z",
+      "sla_policy": "High SLA Standard",
+      "sla_start_time": "2026-10-11T18:20:35.005Z",
+      "response_sla_status": "Breached",
+      "resolution_sla_status": "Within SLA",
+      "current_risk_status": "Breached"
+    },
+    {
+      "id": "TK-200203-BRC",
+      "customer_id": "cust-user-503",
+      "customer_name": "Sarah Connor",
+      "subject": "Unauthorized password change notification received",
+      "description": "I got an email saying my password was changed from another IP address, but I did not initiate this change.",
+      "category": "Security",
+      "status": "In Progress",
+      "assigned_agent": "Marcus Sterling (Senior Lead)",
+      "assigned_user_id": "user-senior-demo",
+      "reference_number": "SEC-991",
+      "resolution_notes": null,
+      "dashboardUrgency": "Critical",
+      "dashboardPriority": 98,
+      "first_response_at": "2026-10-11T18:35:35.005Z",
+      "resolved_at": null,
+      "created_at": "2026-10-11T17:10:35.005Z",
+      "updated_at": "2026-10-11T18:35:35.005Z",
+      "response_deadline": "2026-10-11T17:25:35.005Z",
+      "resolution_deadline": "2026-10-11T19:10:35.005Z",
+      "sla_policy": "Critical SLA Standard",
+      "sla_start_time": "2026-10-11T17:10:35.005Z",
+      "response_sla_status": "Breached",
+      "resolution_sla_status": "Breached",
+      "current_risk_status": "Breached"
+    },
+    {
+      "id": "TK-200204-MED",
+      "customer_id": "customer-demo",
+      "customer_name": "Jane Cooper (Customer)",
+      "subject": "Invoice copy needed for Q3 business tax return",
+      "description": "Could you please re-send the consolidated PDF invoice for all purchases made between July and September?",
+      "category": "Billing and Payments",
+      "status": "Resolved",
+      "assigned_agent": "Mila Brooks",
+      "assigned_user_id": "user-agent-mila",
+      "reference_number": "INV-2023-Q3",
+      "resolution_notes": "Consolidated invoice generated and emailed to customer.",
+      "dashboardUrgency": "Medium",
+      "dashboardPriority": 48,
+      "first_response_at": "2026-10-09T20:40:35.005Z",
+      "resolved_at": "2026-10-09T23:10:35.005Z",
+      "created_at": "2026-10-09T19:10:35.005Z",
+      "updated_at": "2026-10-09T23:10:35.005Z",
+      "response_deadline": "2026-10-09T23:10:35.005Z",
+      "resolution_deadline": "2026-10-10T19:10:35.005Z",
+      "sla_policy": "Medium SLA Standard",
+      "sla_start_time": "2026-10-09T19:10:35.005Z",
+      "response_sla_status": "Met",
+      "resolution_sla_status": "Met",
+      "current_risk_status": "Met"
+    },
+    {
+      "id": "TK-200205-DEL",
+      "customer_id": "cust-user-601",
+      "customer_name": "David Miller",
+      "subject": "Package marked delivered but not received at front desk",
+      "description": "Tracking status indicates delivery was completed at 10 AM, but building concierge has no record of the parcel.",
+      "category": "Delivery and Shipping",
+      "status": "Resolved",
+      "assigned_agent": "Aiden Lee",
+      "assigned_user_id": "user-agent-aiden",
+      "reference_number": "TRK-981244",
+      "resolution_notes": "Carrier driver located parcel in adjacent unit mailbox and redelivered.",
+      "dashboardUrgency": "Medium",
+      "dashboardPriority": 52,
+      "first_response_at": "2026-10-07T19:55:35.005Z",
+      "resolved_at": "2026-10-07T22:10:35.005Z",
+      "created_at": "2026-10-07T19:10:35.005Z",
+      "updated_at": "2026-10-07T22:10:35.005Z",
+      "response_deadline": "2026-10-07T23:10:35.005Z",
+      "resolution_deadline": "2026-10-08T19:10:35.005Z",
+      "sla_policy": "Medium SLA Standard",
+      "sla_start_time": "2026-10-07T19:10:35.005Z",
+      "response_sla_status": "Met",
+      "resolution_sla_status": "Met",
+      "current_risk_status": "Met"
+    },
+    {
+      "id": "TK-200206-LOW",
+      "customer_id": "cust-user-702",
+      "customer_name": "Emily Watson",
+      "subject": "General feedback regarding new mobile app interface",
+      "description": "I love the new dark mode theme, but would suggest adding font size toggles for better accessibility.",
+      "category": "General Inquiry",
+      "status": "Resolved",
+      "assigned_agent": "Noah Patel",
+      "assigned_user_id": "user-agent-noah",
+      "reference_number": null,
+      "resolution_notes": "Logged user feedback with the product UI team.",
+      "dashboardUrgency": "Low",
+      "dashboardPriority": 25,
+      "first_response_at": "2026-10-05T21:10:35.005Z",
+      "resolved_at": "2026-10-06T00:10:35.005Z",
+      "created_at": "2026-10-05T19:10:35.005Z",
+      "updated_at": "2026-10-06T00:10:35.005Z",
+      "response_deadline": "2026-10-06T03:10:35.005Z",
+      "resolution_deadline": "2026-10-07T19:10:35.005Z",
+      "sla_policy": "Low SLA Standard",
+      "sla_start_time": "2026-10-05T19:10:35.005Z",
+      "response_sla_status": "Met",
+      "resolution_sla_status": "Met",
+      "current_risk_status": "Met"
+    },
+    {
+      "id": "TK-200207-PRD",
+      "customer_id": "cust-user-804",
+      "customer_name": "Robert Chen",
+      "subject": "Bluetooth sync fails repeatedly on model X5 firmware 2.4",
+      "description": "Pairing drops after 10 seconds of connection. Tried resetting network cache and reinstalling companion app with no success.",
+      "category": "Product Issues",
+      "status": "In Progress",
+      "assigned_agent": "Alex Rivera (Support Agent)",
+      "assigned_user_id": "user-agent-demo",
+      "reference_number": "FW-204-X",
+      "resolution_notes": null,
+      "dashboardUrgency": "High",
+      "dashboardPriority": 74,
+      "first_response_at": "2026-10-11T15:30:35.005Z",
+      "resolved_at": null,
+      "created_at": "2026-10-11T15:10:35.005Z",
+      "updated_at": "2026-10-11T16:10:35.005Z",
+      "response_deadline": "2026-10-11T16:10:35.005Z",
+      "resolution_deadline": "2026-10-11T23:10:35.005Z",
+      "sla_policy": "High SLA Standard",
+      "sla_start_time": "2026-10-11T15:10:35.005Z",
+      "response_sla_status": "Met",
+      "resolution_sla_status": "Approaching",
+      "current_risk_status": "Approaching"
+    },
+    {
+      "id": "TK-200208-REF",
+      "customer_id": "cust-user-905",
+      "customer_name": "Liam Vance",
+      "subject": "Double charge detected for monthly subscription renewal",
+      "description": "My credit card statement displays two identical debits of $49.00 on the same day. Please refund the duplicate transaction.",
+      "category": "Refunds and Cancellations",
+      "status": "Resolved",
+      "assigned_agent": "Aiden Lee",
+      "assigned_user_id": "user-agent-aiden",
+      "reference_number": "SUB-99411",
+      "resolution_notes": "Duplicate transaction refunded immediately. Confirmation sent.",
+      "dashboardUrgency": "High",
+      "dashboardPriority": 86,
+      "first_response_at": "2026-10-08T21:35:35.005Z",
+      "resolved_at": "2026-10-08T23:00:35.005Z",
+      "created_at": "2026-10-08T21:10:35.005Z",
+      "updated_at": "2026-10-08T23:10:35.005Z",
+      "response_deadline": "2026-10-08T22:10:35.005Z",
+      "resolution_deadline": "2026-10-09T05:10:35.005Z",
+      "sla_policy": "High SLA Standard",
+      "sla_start_time": "2026-10-08T21:10:35.005Z",
+      "response_sla_status": "Met",
+      "resolution_sla_status": "Met",
+      "current_risk_status": "Met"
+    }
+  ],
+  "ticketMessages": [
+    {
+      "id": "MSG-1791752488823-VDJAV",
+      "ticket_id": "TK-1791752488713-W3ID",
+      "sender_id": "user-admin-demo",
+      "sender_role": "agent",
+      "sender_name": "Eleanor Vance (Admin)",
+      "message": "Hello Alice, we have attached your Q3 billing statement.",
+      "created_at": "2026-10-11T21:01:28.823Z"
+    },
+    {
+      "id": "MSG-1791752636544-M4IMH",
+      "ticket_id": "TK-1791752636544-NVFI",
+      "sender_id": "kb-bot",
+      "sender_role": "agent",
+      "message": "🤖 Automated Knowledge Base Resolution:\n\nCommon payment resolutions:\n1. Payment Deducted but Order Not Confirmed: If your bank deducted the amount but no order ID was issued, it is usually a temporary bank authorization hold. It automatically reverses in 24–48 hours.\n2. Card Declined: Ensure international or online transactions are enabled on your card, and that the CVV and billing zip code match your card statement.\n3. Alternative Options: We support digital wallets (Apple Pay, Google Pay, PayPal) and direct bank transfers for instant checkout without card processing drops.\n4. Double Charge: Duplicate authorizations are routinely released by banks within 3 business days without manual intervention.",
+      "created_at": "2026-10-11T21:03:56.544Z"
+    }
+  ],
+  "ticketHistory": [
+    {
+      "id": "EV-1791724873426-8QVTI",
+      "ticket_id": "TK-100101-A1B",
+      "event_type": "Ticket created",
+      "note": "Ticket created for account access support.",
+      "created_at": "2026-10-11T01:21:13.425Z"
+    },
+    {
+      "id": "EV-1791724873426-ICGU5",
+      "ticket_id": "TK-100102-D3E",
+      "event_type": "Ticket created",
+      "note": "Ticket created for refund and cancellation review.",
+      "created_at": "2026-10-10T01:21:13.425Z"
+    },
+    {
+      "id": "EV-1791724873426-FAVWL",
+      "ticket_id": "TK-100102-D3E",
+      "event_type": "Status changed",
+      "note": "Status changed to In Progress.",
+      "created_at": "2026-10-10T19:21:13.425Z"
+    },
+    {
+      "id": "EV-1791724873426-LLXQT",
+      "ticket_id": "TK-100103-H7F",
+      "event_type": "Ticket created",
+      "note": "Ticket created for product issue resolution.",
+      "created_at": "2026-10-08T13:21:13.425Z"
+    },
+    {
+      "id": "EV-1791724873426-ZA46R",
+      "ticket_id": "TK-100103-H7F",
+      "event_type": "Ticket resolved",
+      "note": "Customer issue resolved successfully and case closed.",
+      "created_at": "2026-10-09T13:21:13.425Z"
+    },
+    {
+      "id": "EV-1791724884077-0Z3IG",
+      "ticket_id": "TK-1791724884077-5PXL",
+      "event_type": "Ticket created",
+      "note": "Customer created a new billing and payments ticket.",
+      "created_at": "2026-10-11T13:21:24.077Z"
+    },
+    {
+      "id": "EV-1791749427051-RDJBB",
+      "ticket_id": "TK-1791749427051-CNF3",
+      "event_type": "Ticket created",
+      "note": "Customer created a new product issues ticket. Prioritized at 18.65/100.",
+      "created_at": "2026-10-11T20:10:27.051Z"
+    },
+    {
+      "id": "EV-1791752458985-3WPBW",
+      "ticket_id": "TK-1791752458985-VX7R",
+      "event_type": "Ticket created",
+      "note": "Customer created a new billing and payments ticket. [AUTO-ESCALATED TO SENIOR STAFF: High Priority/Frustration/VIP]",
+      "created_at": "2026-10-11T21:00:58.985Z"
+    },
+    {
+      "id": "EV-1791752488713-SX79L",
+      "ticket_id": "TK-1791752488713-W3ID",
+      "event_type": "Ticket created",
+      "note": "Customer created a new billing and payments ticket. [AUTO-ESCALATED TO SENIOR STAFF: High Priority/Frustration/VIP]",
+      "created_at": "2026-10-11T21:01:28.712Z"
+    },
+    {
+      "id": "EV-1791752488823-TJIH4",
+      "ticket_id": "TK-1791752488713-W3ID",
+      "event_type": "Agent replied",
+      "note": "Support agent Eleanor Vance (Admin) responded to the ticket.",
+      "created_at": "2026-10-11T21:01:28.823Z"
+    },
+    {
+      "id": "EV-1791752636544-ROWU5",
+      "ticket_id": "TK-1791752636544-NVFI",
+      "event_type": "Ticket created",
+      "note": "Customer created a new refunds and cancellations ticket. [ROUTINE QUERY: Auto-resolved by Knowledge Base]",
+      "created_at": "2026-10-11T21:03:56.544Z"
+    },
+    {
+      "id": "EV-1791752636544-BEMFF",
+      "ticket_id": "TK-1791752636544-NVFI",
+      "event_type": "Ticket resolved",
+      "note": "Instant solution provided from Knowledge Base. No queue waiting required.",
+      "created_at": "2026-10-11T21:03:56.544Z"
+    }
+  ],
+  "priorityCalculations": [
+    {
+      "ticketId": "SAMPLE-318",
+      "subject": "Question about updating profile details",
+      "urgencyLevel": "Low",
+      "urgencyScore": 20,
+      "frustrationScore": 15,
+      "customerValueScore": 40,
+      "supportHistoryScore": 10,
+      "notes": "",
+      "weights": {
+        "urgency": 40,
+        "frustration": 25,
+        "customerValue": 20,
+        "supportHistory": 15
+      },
+      "factors": [
+        {
+          "key": "urgency",
+          "label": "Urgency",
+          "score": 20,
+          "weight": 40,
+          "contribution": 8
+        },
+        {
+          "key": "frustration",
+          "label": "Customer frustration",
+          "score": 15,
+          "weight": 25,
+          "contribution": 3.75
+        },
+        {
+          "key": "customerValue",
+          "label": "Customer value",
+          "score": 40,
+          "weight": 20,
+          "contribution": 8
+        },
+        {
+          "key": "supportHistory",
+          "label": "Support history",
+          "score": 10,
+          "weight": 15,
+          "contribution": 1.5
+        }
+      ],
+      "score": 21.25,
+      "category": "Low Priority",
+      "criticalFlag": false,
+      "attentionLevel": "Low attention: handle through the standard queue.",
+      "explanation": "Urgency (8.00 points) and Customer value (8.00 points) contribute most to this result. The score is the sum of each 0–100 factor multiplied by its configured weight.",
+      "analyzedAt": "2026-10-11T14:02:54.672Z",
+      "isSample": true,
+      "id": "SAMPLE-318-1791727374672"
+    },
+    {
+      "ticketId": "SAMPLE-204",
+      "subject": "Payment collected but order was not created",
+      "urgencyLevel": "High",
+      "urgencyScore": 90,
+      "frustrationScore": 80,
+      "customerValueScore": 70,
+      "supportHistoryScore": 100,
+      "notes": "Illustrative score example.",
+      "weights": {
+        "urgency": 40,
+        "frustration": 25,
+        "customerValue": 20,
+        "supportHistory": 15
+      },
+      "factors": [
+        {
+          "key": "urgency",
+          "label": "Urgency",
+          "score": 90,
+          "weight": 40,
+          "contribution": 36
+        },
+        {
+          "key": "frustration",
+          "label": "Customer frustration",
+          "score": 80,
+          "weight": 25,
+          "contribution": 20
+        },
+        {
+          "key": "customerValue",
+          "label": "Customer value",
+          "score": 70,
+          "weight": 20,
+          "contribution": 14
+        },
+        {
+          "key": "supportHistory",
+          "label": "Support history",
+          "score": 100,
+          "weight": 15,
+          "contribution": 15
+        }
+      ],
+      "score": 85,
+      "category": "High Priority",
+      "criticalFlag": false,
+      "attentionLevel": "High attention: prioritize prompt review.",
+      "explanation": "Urgency (36.00 points) and Customer frustration (20.00 points) contribute most to this result. The score is the sum of each 0–100 factor multiplied by its configured weight.",
+      "analyzedAt": "2026-10-11T14:01:40.875Z",
+      "isSample": true,
+      "id": "SAMPLE-204-1791727300889"
+    }
+  ],
+  "priorityWeights": {
+    "urgency": 40,
+    "frustration": 25,
+    "customerValue": 20,
+    "supportHistory": 15
+  },
+  "routingTickets": [
+    {
+      "ticket": {
+        "ticketId": "SAMPLE-ROUTE-101",
+        "subject": "Payment processed but order missing",
+        "description": "Payment was taken but the order confirmation was not created.",
+        "category": "Payments",
+        "urgency": "High",
+        "priorityScore": 82,
+        "requiredSkills": [
+          "payment",
+          "billing"
+        ],
+        "frustrationScore": 76,
+        "unresolvedContacts": 1,
+        "currentTeam": "",
+        "unassignedMinutes": null
+      },
+      "recommendation": {
+        "ticket": {
+          "ticketId": "SAMPLE-ROUTE-101",
+          "subject": "Payment processed but order missing",
+          "description": "Payment was taken but the order confirmation was not created.",
+          "category": "Payments",
+          "urgency": "High",
+          "priorityScore": 82,
+          "requiredSkills": [
+            "payment",
+            "billing"
+          ],
+          "frustrationScore": 76,
+          "unresolvedContacts": 1,
+          "currentTeam": "",
+          "unassignedMinutes": null
+        },
+        "selectedTeam": {
+          "team": {
+            "availability": "Available",
+            "capacity": 12,
+            "id": "sample-billing",
+            "skills": [
+              "payment",
+              "billing",
+              "refund"
+            ],
+            "escalationContact": "Billing Lead",
+            "isSample": true,
+            "name": "Billing and Payments",
+            "openTickets": 5,
+            "active": true,
+            "categories": [
+              "Billing",
+              "Payments"
+            ]
+          },
+          "score": 58,
+          "matchedSkills": [
+            "payment",
+            "billing"
+          ],
+          "explanation": "Category match: Payments. Skills matched: payment, billing. Available status; workload is 5/12 open tickets (42% capacity)."
+        },
+        "alternatives": [],
+        "status": "Escalation Recommended",
+        "escalationReasons": [
+          "Priority score meets the high-priority threshold (75)."
+        ],
+        "escalationDestination": "Support Lead",
+        "explanation": "Category match: Payments. Skills matched: payment, billing. Available status; workload is 5/12 open tickets (42% capacity). High-priority handling recommended. Frustration is retained as context and does not change category/skill eligibility.",
+        "manualReviewRequired": false,
+        "criticalWarning": false,
+        "recommendedHandling": "High-priority handling recommended."
+      },
+      "assignedTeam": "",
+      "status": "Escalated",
+      "escalationReasons": [
+        "Priority score meets the high-priority threshold (75)."
+      ],
+      "isSample": true,
+      "updatedAt": "2026-10-11T14:18:56.798Z",
+      "createdAt": "2026-10-11T14:18:48.451Z"
+    }
+  ],
+  "routingAudit": [
+    {
+      "id": "route-1791728336798",
+      "ticketId": "SAMPLE-ROUTE-101",
+      "action": "Escalation",
+      "previousTeam": "",
+      "newTeam": "",
+      "status": "Escalated",
+      "reason": "Priority score meets the high-priority threshold (75). Suggested destination: Support Lead.",
+      "timestamp": "2026-10-11T14:18:56.798Z",
+      "isSample": true
+    },
+    {
+      "id": "route-1791728328451",
+      "ticketId": "SAMPLE-ROUTE-101",
+      "action": "Recommendation",
+      "previousTeam": "",
+      "newTeam": "Billing and Payments",
+      "status": "Escalation Recommended",
+      "reason": "Category match: Payments. Skills matched: payment, billing. Available status; workload is 5/12 open tickets (42% capacity). High-priority handling recommended. Frustration is retained as context and does not change category/skill eligibility.",
+      "timestamp": "2026-10-11T14:18:48.451Z",
+      "isSample": true
+    }
+  ],
+  "routingSettings": {
+    "highPriorityThreshold": 75,
+    "repeatContactThreshold": 3,
+    "unassignedEscalationMinutes": 30,
+    "securityDestination": "Security and Critical Incidents",
+    "defaultEscalationDestination": "Support Lead"
+  },
+  "routingTeams": [
+    {
+      "availability": "Available",
+      "capacity": 12,
+      "id": "sample-billing",
+      "skills": [
+        "payment",
+        "billing",
+        "refund"
+      ],
+      "escalationContact": "Billing Lead",
+      "isSample": true,
+      "name": "Billing and Payments",
+      "openTickets": 5,
+      "active": true,
+      "categories": [
+        "Billing",
+        "Payments"
+      ]
+    },
+    {
+      "availability": "Available",
+      "capacity": 16,
+      "id": "sample-technical",
+      "skills": [
+        "troubleshooting",
+        "application",
+        "account access"
+      ],
+      "escalationContact": "Technical Lead",
+      "isSample": true,
+      "name": "Technical Support",
+      "openTickets": 9,
+      "active": true,
+      "categories": [
+        "Technical Support"
+      ]
+    },
+    {
+      "availability": "Available",
+      "capacity": 10,
+      "id": "sample-account",
+      "skills": [
+        "account access",
+        "login",
+        "identity verification"
+      ],
+      "escalationContact": "Account Lead",
+      "isSample": true,
+      "name": "Account and Access Support",
+      "openTickets": 6,
+      "active": true,
+      "categories": [
+        "Account Access"
+      ]
+    },
+    {
+      "availability": "Available",
+      "capacity": 10,
+      "id": "sample-delivery",
+      "skills": [
+        "shipping",
+        "tracking",
+        "logistics"
+      ],
+      "escalationContact": "Logistics Lead",
+      "isSample": true,
+      "name": "Delivery and Logistics",
+      "openTickets": 4,
+      "active": true,
+      "categories": [
+        "Delivery"
+      ]
+    },
+    {
+      "availability": "Available",
+      "capacity": 9,
+      "id": "sample-returns",
+      "skills": [
+        "refund",
+        "returns",
+        "billing"
+      ],
+      "escalationContact": "Returns Lead",
+      "isSample": true,
+      "name": "Returns and Refunds",
+      "openTickets": 5,
+      "active": true,
+      "categories": [
+        "Refunds"
+      ]
+    },
+    {
+      "availability": "Busy",
+      "capacity": 10,
+      "id": "sample-product",
+      "skills": [
+        "product troubleshooting",
+        "quality",
+        "warranty"
+      ],
+      "escalationContact": "Product Lead",
+      "isSample": true,
+      "name": "Product Support",
+      "openTickets": 6,
+      "active": true,
+      "categories": [
+        "Product Issues"
+      ]
+    },
+    {
+      "availability": "Available",
+      "capacity": 6,
+      "id": "sample-security",
+      "skills": [
+        "security",
+        "account access",
+        "incident response"
+      ],
+      "escalationContact": "Security Lead",
+      "isSample": true,
+      "name": "Security and Critical Incidents",
+      "openTickets": 3,
+      "active": true,
+      "categories": [
+        "Security"
+      ]
+    },
+    {
+      "availability": "Available",
+      "capacity": 20,
+      "id": "sample-general",
+      "skills": [
+        "customer support",
+        "general inquiries"
+      ],
+      "escalationContact": "Support Lead",
+      "isSample": true,
+      "name": "General Customer Support",
+      "openTickets": 8,
+      "active": true,
+      "categories": [
+        "General",
+        "Other"
+      ]
+    }
+  ],
+  "dashboardUsers": [
+    {
+      "id": "user-admin-demo",
+      "name": "Eleanor Vance (Admin)",
+      "email": "admin@example.com",
+      "role": "Admin",
+      "active": true,
+      "team": "Administration",
+      "passwordHash": "fd02774038e35fc36ac6da7bdda640e53032af9e3d5e77f7ac275c3f8aaae8283cea5edb2cc6280a69c022afd0c2be862501f389182c98981d244258ca90e9b1",
+      "passwordSalt": "c8be21d9ad98ea3acacebaea37211da3",
+      "createdAt": "2026-10-11T19:10:35.054Z",
+      "lastLoginAt": "2026-10-11T21:28:49.264Z"
+    },
+    {
+      "id": "user-senior-demo",
+      "name": "Marcus Sterling (Senior Lead)",
+      "email": "senior@example.com",
+      "role": "Senior Support Staff",
+      "active": true,
+      "team": "Senior Staff & Executive Escalations",
+      "passwordHash": "d8528739e84a6ba5dd34879b963f6fe3d8cdb93fd3e20c1c2a4f0d23ef83f7db49d611f7665b64a7d8bdaaa4c8cdddb65aca759329f1d17f338b6c87f7525523",
+      "passwordSalt": "907e0f3ddc499febd5434525ecc3f376",
+      "createdAt": "2026-10-11T19:10:35.054Z",
+      "lastLoginAt": "2026-10-11T21:28:58.927Z"
+    },
+    {
+      "id": "user-agent-demo",
+      "name": "Alex Rivera (Support Agent)",
+      "email": "agent@example.com",
+      "role": "Support Agent",
+      "active": true,
+      "team": "Technical Support",
+      "passwordHash": "750f02f75ced21f2303d42359e81fa40a0912167e5aa9306843c3470a5ea83256351df9805f6799c7906f54f17cd9df14930cca55f1528ab849a3b253bba5413",
+      "passwordSalt": "61b88b1b3a4275f2fe455cdbce24e771",
+      "createdAt": "2026-10-11T19:10:35.054Z",
+      "lastLoginAt": "2026-10-11T21:28:58.891Z"
+    },
+    {
+      "id": "customer-demo",
+      "name": "Jane Cooper (Customer)",
+      "email": "customer@example.com",
+      "role": "Customer",
+      "active": true,
+      "team": "",
+      "passwordHash": "8672fd3931178a1c6cd45db6f84a57ad1364d38d6517dc441b60403fe66085a3cfa5eed6689f20365939c80436cfd557b369830d2193ec4b016fc182b05902b1",
+      "passwordSalt": "8e57ff33ca302d3c5e1e6bd527ae6135",
+      "createdAt": "2026-10-11T19:10:35.054Z",
+      "lastLoginAt": "2026-10-11T21:28:58.872Z"
+    },
+    {
+      "id": "1d9defc8-a8c4-4570-94e7-b414418c99b6",
+      "name": "Prajwal Jadhav",
+      "email": "prajwaljadhav6188@gmail.com",
+      "role": "Customer",
+      "active": true,
+      "team": "",
+      "passwordHash": "f6bef73f091d3ff7605f5b3f2512648c8f56d1eee548b2810d91a6e06340ebe4a25587bbfde5e00f87579f01a86748496f450c746eb7376d0b3cc5e43292c3a0",
+      "passwordSalt": "17fb068046dd6a29578467111896ec33",
+      "createdAt": "2026-10-11T20:09:49.514Z",
+      "lastLoginAt": "2026-10-11T20:09:49.520Z"
+    },
+    {
+      "id": "f1cb3d73-0d7a-45e2-8e4e-38ce25dcc536",
+      "name": "Alice Johnson",
+      "email": "testuser_1791752458689@example.com",
+      "role": "Customer",
+      "active": true,
+      "team": "",
+      "passwordHash": "342732a55953b41f652bcca667971c8ccfc9209a5ffc5aece190b7e976cac386af3cd8de99eb45c4456581c24fd1759f1f4d4437cd11f15a62bf72a1a95b1478",
+      "passwordSalt": "93d7e168da47fbfd0304991a00e53bfc",
+      "createdAt": "2026-10-11T21:00:58.940Z",
+      "lastLoginAt": "2026-10-11T21:00:58.949Z"
+    },
+    {
+      "id": "fa59c857-7420-46f6-a543-690c757a35a6",
+      "name": "Alice Johnson",
+      "email": "testuser_1791752488236@example.com",
+      "role": "Customer",
+      "active": true,
+      "team": "",
+      "passwordHash": "40f80af4d215968d44a80aff3d3b566c6d4709657520e9effa762abbc67a0fdcbf664b2ec33ea56753c487c2245078249298f4046cd447d0a16b5ed436e89b03",
+      "passwordSalt": "f6597a5f635fad7a6c372c20e2f7cc6f",
+      "createdAt": "2026-10-11T21:01:28.658Z",
+      "lastLoginAt": "2026-10-11T21:01:28.672Z"
+    }
+  ],
+  "dashboardSessions": [
+    {
+      "tokenHash": "0ccb5c1a095e4c503ef8a2c38dc0298543d5e79304bb880193879e0a7ca11f96",
+      "userId": "user-admin-demo",
+      "createdAt": "2026-10-11T20:09:03.348Z",
+      "expiresAt": "2026-10-12T04:09:03.348Z"
+    },
+    {
+      "tokenHash": "e2c6edadddede352284128b0ba948887c1695eb9f1dc6ce5366299eb8cb5e67a",
+      "userId": "user-admin-demo",
+      "createdAt": "2026-10-11T20:09:03.649Z",
+      "expiresAt": "2026-10-12T04:09:03.649Z"
+    },
+    {
+      "tokenHash": "c5dba886a6b2740f9c815232ee02dda372d42cc5fe36a6f633b52d4307642c4a",
+      "userId": "user-admin-demo",
+      "createdAt": "2026-10-11T20:09:13.981Z",
+      "expiresAt": "2026-10-12T04:09:13.981Z"
+    },
+    {
+      "tokenHash": "fa83fb11e738d03985a3a8cd1351ab9b6b15c8058e2061c790e1350f77706a0f",
+      "userId": "user-admin-demo",
+      "createdAt": "2026-10-11T20:09:14.073Z",
+      "expiresAt": "2026-10-12T04:09:14.073Z"
+    },
+    {
+      "tokenHash": "c442dd41ecc6ad0b6b0114fba0f1198721fd44968eb9fd49d8d5e5b10566ac3c",
+      "userId": "1d9defc8-a8c4-4570-94e7-b414418c99b6",
+      "createdAt": "2026-10-11T20:09:49.516Z",
+      "expiresAt": "2026-10-12T04:09:49.516Z"
+    },
+    {
+      "tokenHash": "973d92d7ec27ad0112ec111a902c8827e90f13a57de97b13748bdec3761afc02",
+      "userId": "user-senior-demo",
+      "createdAt": "2026-10-11T20:10:38.814Z",
+      "expiresAt": "2026-10-12T04:10:38.814Z"
+    },
+    {
+      "tokenHash": "482cf91815c3c27a77a9424f5adf9a42fe8b0e2134244e28e5cf1a9af8ac82ad",
+      "userId": "user-admin-demo",
+      "createdAt": "2026-10-11T20:10:39.239Z",
+      "expiresAt": "2026-10-12T04:10:39.239Z"
+    },
+    {
+      "tokenHash": "e073146d50ce4fad271a234c5608a761ae8e8bc5c1de34bdec3647c7a4e5009c",
+      "userId": "user-agent-demo",
+      "createdAt": "2026-10-11T20:11:06.175Z",
+      "expiresAt": "2026-10-12T04:11:06.175Z"
+    },
+    {
+      "tokenHash": "8bf5417a05de31d1f887368f4461e26f11520ec3846e8e8216a34ae4007a546f",
+      "userId": "user-admin-demo",
+      "createdAt": "2026-10-11T20:11:23.428Z",
+      "expiresAt": "2026-10-12T04:11:23.428Z"
+    },
+    {
+      "tokenHash": "77b23eb0ab96987fcaa1c6d2829b6f9da192e544c9b48b8662f7f69e0f2a1dcb",
+      "userId": "user-admin-demo",
+      "createdAt": "2026-10-11T20:25:28.616Z",
+      "expiresAt": "2026-10-12T04:25:28.616Z"
+    },
+    {
+      "tokenHash": "fdeb764eb7bc05976bdb3e94398864c44c10de8d700fb99ecc1ac31ddbefc965",
+      "userId": "f1cb3d73-0d7a-45e2-8e4e-38ce25dcc536",
+      "createdAt": "2026-10-11T21:00:58.943Z",
+      "expiresAt": "2026-10-12T05:00:58.943Z"
+    },
+    {
+      "tokenHash": "66aa6c5921788c493a59c0d2b747bc376698b745c973f7c45e50ea0e25307bf1",
+      "userId": "fa59c857-7420-46f6-a543-690c757a35a6",
+      "createdAt": "2026-10-11T21:01:28.663Z",
+      "expiresAt": "2026-10-12T05:01:28.663Z"
+    },
+    {
+      "tokenHash": "8f67c531124bfe384b80111d662d07e487e6afdac99f347c760f39577f6652c4",
+      "userId": "user-admin-demo",
+      "createdAt": "2026-10-11T21:01:28.737Z",
+      "expiresAt": "2026-10-12T05:01:28.737Z"
+    },
+    {
+      "tokenHash": "b408c25d99aab6ead4170ebb619642bca1686b85da5209de6c2d5a1950dc3a69",
+      "userId": "customer-demo",
+      "createdAt": "2026-10-11T21:03:15.163Z",
+      "expiresAt": "2026-10-12T05:03:15.163Z"
+    },
+    {
+      "tokenHash": "d674fbe02fa355fa5dc0abdcccab329f2e3760b1f29823169cec674b1ebee994",
+      "userId": "user-admin-demo",
+      "createdAt": "2026-10-11T21:11:47.964Z",
+      "expiresAt": "2026-10-12T05:11:47.964Z"
+    },
+    {
+      "tokenHash": "98e5639a4bf12aeabd9aed6f67acdd73a06344099541c7c8f2f5e43abe37c49c",
+      "userId": "user-admin-demo",
+      "createdAt": "2026-10-11T21:18:03.087Z",
+      "expiresAt": "2026-10-12T05:18:03.087Z"
+    },
+    {
+      "tokenHash": "db47b070cb07a4bd20a7815ae62b7f30295828f9d2168c359ca8dd434b7fd584",
+      "userId": "customer-demo",
+      "createdAt": "2026-10-11T21:22:39.019Z",
+      "expiresAt": "2026-10-12T05:22:39.019Z"
+    },
+    {
+      "tokenHash": "813304bb262dff8fe65d9056faea63719dc951305bf52bab8232cb3fb9b02433",
+      "userId": "user-senior-demo",
+      "createdAt": "2026-10-11T21:22:41.761Z",
+      "expiresAt": "2026-10-12T05:22:41.761Z"
+    },
+    {
+      "tokenHash": "959016232e2538712f9be49e5a0f6af2d4e04eb29596a00de9b5c7bb6e81bc05",
+      "userId": "user-admin-demo",
+      "createdAt": "2026-10-11T21:28:49.257Z",
+      "expiresAt": "2026-10-12T05:28:49.257Z"
+    },
+    {
+      "tokenHash": "7380e4f86f0d606dea927659b7b8a0e35bff1e4d0b9fdd0e28e29e2ca49290cb",
+      "userId": "customer-demo",
+      "createdAt": "2026-10-11T21:28:58.864Z",
+      "expiresAt": "2026-10-12T05:28:58.864Z"
+    },
+    {
+      "tokenHash": "abb6f993ffc179810206312456595ceaf4f3f40bd648c4c3a27b7431d6d82e27",
+      "userId": "user-agent-demo",
+      "createdAt": "2026-10-11T21:28:58.882Z",
+      "expiresAt": "2026-10-12T05:28:58.882Z"
+    },
+    {
+      "tokenHash": "43f5e133573f8431ae3067dc1da4c77678b9b4bf08af632f4281b3564d406f16",
+      "userId": "user-senior-demo",
+      "createdAt": "2026-10-11T21:28:58.923Z",
+      "expiresAt": "2026-10-12T05:28:58.923Z"
+    }
+  ],
+  "dashboardAudit": [
+    {
+      "id": "16d28c45-78a1-4ed4-8d12-1e57ef833423",
+      "actorId": "user-admin-demo",
+      "actorName": "Eleanor Vance (Admin)",
+      "action": "Signed out",
+      "targetId": "user-admin-demo",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T21:31:48.220Z"
+    },
+    {
+      "id": "a8a414ca-4126-49ac-8895-f3917590329f",
+      "actorId": "user-senior-demo",
+      "actorName": "Marcus Sterling (Senior Lead)",
+      "action": "Signed in",
+      "targetId": "user-senior-demo",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T21:28:58.931Z"
+    },
+    {
+      "id": "e6f5cc99-742c-4240-84e7-b57f251a19f9",
+      "actorId": "user-agent-demo",
+      "actorName": "Alex Rivera (Support Agent)",
+      "action": "Signed in",
+      "targetId": "user-agent-demo",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T21:28:58.896Z"
+    },
+    {
+      "id": "6e7856b4-decb-464b-91df-6fa3c34ff186",
+      "actorId": "customer-demo",
+      "actorName": "Jane Cooper (Customer)",
+      "action": "Signed in",
+      "targetId": "customer-demo",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T21:28:58.875Z"
+    },
+    {
+      "id": "c8a2991f-437f-456c-a6be-5544afd03706",
+      "actorId": "user-admin-demo",
+      "actorName": "Eleanor Vance (Admin)",
+      "action": "Signed in",
+      "targetId": "user-admin-demo",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T21:28:49.267Z"
+    },
+    {
+      "id": "6af7cef3-f517-44e3-a045-8937b8f29e8a",
+      "actorId": "user-admin-demo",
+      "actorName": "Eleanor Vance (Admin)",
+      "action": "Demo switched to Admin",
+      "targetId": "user-admin-demo",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T21:24:08.201Z"
+    },
+    {
+      "id": "11844a3e-8f7f-4df8-a8b9-953fa8800d90",
+      "actorId": "user-admin-demo",
+      "actorName": "Eleanor Vance (Admin)",
+      "action": "Signed out",
+      "targetId": "user-admin-demo",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T21:23:47.585Z"
+    },
+    {
+      "id": "9a992e68-cc4a-486d-a640-9a4e282e197a",
+      "actorId": "user-admin-demo",
+      "actorName": "Eleanor Vance (Admin)",
+      "action": "Demo switched to Admin",
+      "targetId": "user-admin-demo",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T21:22:42.503Z"
+    },
+    {
+      "id": "10137cb6-c011-4872-a140-d5553e370d4b",
+      "actorId": "user-senior-demo",
+      "actorName": "Marcus Sterling (Senior Lead)",
+      "action": "Demo switched to Senior Support Staff",
+      "targetId": "user-senior-demo",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T21:22:41.777Z"
+    },
+    {
+      "id": "3823bfd6-bd09-4f53-abbb-2d3b97877cc6",
+      "actorId": "customer-demo",
+      "actorName": "Jane Cooper (Customer)",
+      "action": "Demo switched to Customer",
+      "targetId": "customer-demo",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T21:22:39.030Z"
+    },
+    {
+      "id": "09e2bc79-8e66-4f82-85d7-11a425dfefb9",
+      "actorId": "user-senior-demo",
+      "actorName": "Marcus Sterling (Senior Lead)",
+      "action": "Signed out",
+      "targetId": "user-senior-demo",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T21:22:37.950Z"
+    },
+    {
+      "id": "65c8f8ac-9c0e-4b04-aace-8e698a604c08",
+      "actorId": "user-senior-demo",
+      "actorName": "Marcus Sterling (Senior Lead)",
+      "action": "Demo switched to Senior Support Staff",
+      "targetId": "user-senior-demo",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T21:22:18.259Z"
+    },
+    {
+      "id": "c95f2b01-fbb4-4aaa-8317-6020f418a46e",
+      "actorId": "user-admin-demo",
+      "actorName": "Eleanor Vance (Admin)",
+      "action": "Demo switched to Admin",
+      "targetId": "user-admin-demo",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T21:18:03.122Z"
+    },
+    {
+      "id": "c529a1bf-95a8-4750-8a2c-718085ea1bb6",
+      "actorId": "user-admin-demo",
+      "actorName": "Eleanor Vance (Admin)",
+      "action": "Signed out",
+      "targetId": "user-admin-demo",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T21:15:10.616Z"
+    },
+    {
+      "id": "24701b92-ba59-4fbd-b647-e203bbc722e2",
+      "actorId": "user-admin-demo",
+      "actorName": "Eleanor Vance (Admin)",
+      "action": "Demo switched to Admin",
+      "targetId": "user-admin-demo",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T21:14:04.739Z"
+    },
+    {
+      "id": "3de32dea-8350-4b21-8ba8-b079a35fa318",
+      "actorId": "user-admin-demo",
+      "actorName": "Eleanor Vance (Admin)",
+      "action": "Demo switched to Admin",
+      "targetId": "user-admin-demo",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T21:11:47.975Z"
+    },
+    {
+      "id": "b9aedb67-252a-47cb-916c-3f9105fe76a1",
+      "actorId": "user-admin-demo",
+      "actorName": "Eleanor Vance (Admin)",
+      "action": "Signed out",
+      "targetId": "user-admin-demo",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T21:04:41.957Z"
+    },
+    {
+      "id": "31066a8f-2278-4725-ac14-2be8317b3c63",
+      "actorId": "user-admin-demo",
+      "actorName": "Eleanor Vance (Admin)",
+      "action": "Demo switched to Admin",
+      "targetId": "user-admin-demo",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T21:04:06.719Z"
+    },
+    {
+      "id": "8725e89e-ef36-4dad-b287-f1c3fd97e072",
+      "actorId": "customer-demo",
+      "actorName": "Jane Cooper (Customer)",
+      "action": "Demo switched to Customer",
+      "targetId": "customer-demo",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T21:03:15.182Z"
+    },
+    {
+      "id": "d9ff3793-ce4f-4afd-bcf5-7cfb81fa4461",
+      "actorId": "user-admin-demo",
+      "actorName": "Eleanor Vance (Admin)",
+      "action": "Demo switched to Admin",
+      "targetId": "user-admin-demo",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T21:01:28.764Z"
+    },
+    {
+      "id": "05a1f382-8e7e-4500-9786-8e6445794de8",
+      "actorId": "fa59c857-7420-46f6-a543-690c757a35a6",
+      "actorName": "Alice Johnson",
+      "action": "Customer registered",
+      "targetId": "fa59c857-7420-46f6-a543-690c757a35a6",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T21:01:28.677Z"
+    },
+    {
+      "id": "d49e5ff7-030c-4461-8c24-5ed39fa96493",
+      "actorId": "f1cb3d73-0d7a-45e2-8e4e-38ce25dcc536",
+      "actorName": "Alice Johnson",
+      "action": "Customer registered",
+      "targetId": "f1cb3d73-0d7a-45e2-8e4e-38ce25dcc536",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T21:00:58.951Z"
+    },
+    {
+      "id": "1960c424-ebf0-4f6f-8b25-25cd1df00eac",
+      "actorId": "user-admin-demo",
+      "actorName": "Eleanor Vance (Admin)",
+      "action": "Signed in",
+      "targetId": "user-admin-demo",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T20:25:28.647Z"
+    },
+    {
+      "id": "e7605d21-95ca-463f-a5b7-de3476a51c54",
+      "actorId": "user-admin-demo",
+      "actorName": "Eleanor Vance (Admin)",
+      "action": "Demo switched to Admin",
+      "targetId": "user-admin-demo",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T20:11:23.442Z"
+    },
+    {
+      "id": "00da50b8-3e10-4420-97f5-e3cfdd5651a5",
+      "actorId": "user-agent-demo",
+      "actorName": "Alex Rivera (Support Agent)",
+      "action": "Demo switched to Support Agent",
+      "targetId": "user-agent-demo",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T20:11:06.200Z"
+    },
+    {
+      "id": "21990002-f01d-4a24-8292-84cddcdb435a",
+      "actorId": "user-admin-demo",
+      "actorName": "Eleanor Vance (Admin)",
+      "action": "Demo switched to Admin",
+      "targetId": "user-admin-demo",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T20:10:39.254Z"
+    },
+    {
+      "id": "75531518-d5cf-481f-b7a0-104651bd2f85",
+      "actorId": "user-senior-demo",
+      "actorName": "Marcus Sterling (Senior Lead)",
+      "action": "Demo switched to Senior Support Staff",
+      "targetId": "user-senior-demo",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T20:10:38.838Z"
+    },
+    {
+      "id": "ea22ced8-0b27-4a84-9719-2f7e9387b3f3",
+      "actorId": "1d9defc8-a8c4-4570-94e7-b414418c99b6",
+      "actorName": "Prajwal Jadhav",
+      "action": "Customer registered",
+      "targetId": "1d9defc8-a8c4-4570-94e7-b414418c99b6",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T20:09:49.527Z"
+    },
+    {
+      "id": "31ff0208-e488-4782-9f06-123a65e1d22b",
+      "actorId": "user-admin-demo",
+      "actorName": "Eleanor Vance (Admin)",
+      "action": "Signed out",
+      "targetId": "user-admin-demo",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T20:09:31.099Z"
+    },
+    {
+      "id": "c8944441-0f37-4792-b04d-065f551bae34",
+      "actorId": "user-admin-demo",
+      "actorName": "Eleanor Vance (Admin)",
+      "action": "Demo switched to Admin",
+      "targetId": "user-admin-demo",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T20:09:29.898Z"
+    },
+    {
+      "id": "a2c85937-9d8c-4b3b-a140-f0a7e4e46436",
+      "actorId": "user-admin-demo",
+      "actorName": "Eleanor Vance (Admin)",
+      "action": "Demo switched to Admin",
+      "targetId": "user-admin-demo",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T20:09:14.092Z"
+    },
+    {
+      "id": "de13462b-e675-4b45-91e9-236aa7af3eca",
+      "actorId": "user-admin-demo",
+      "actorName": "Eleanor Vance (Admin)",
+      "action": "Demo switched to Admin",
+      "targetId": "user-admin-demo",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T20:09:13.994Z"
+    },
+    {
+      "id": "3f27d402-a3dd-42e6-a982-5fedb34d2651",
+      "actorId": "user-admin-demo",
+      "actorName": "Eleanor Vance (Admin)",
+      "action": "Demo switched to Admin",
+      "targetId": "user-admin-demo",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T20:09:03.658Z"
+    },
+    {
+      "id": "f2bd44d6-ed95-40db-acef-f4cb707302f8",
+      "actorId": "user-admin-demo",
+      "actorName": "Eleanor Vance (Admin)",
+      "action": "Demo switched to Admin",
+      "targetId": "user-admin-demo",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-11T20:09:03.357Z"
+    }
+  ],
+  "dashboardNotes": [],
+  "dashboardDrafts": [],
+  "dashboardRequests": [],
+  "dashboardRoutingRules": [],
+  "dashboardTeams": [],
+  "dashboardEscalationSettings": {
+    "criticalUrgency": true,
+    "highPriorityThreshold": 75,
+    "securityHandling": "Security and Critical Incidents",
+    "repeatedContactsThreshold": 3,
+    "unassignedMinutes": 30,
+    "escalationDestination": "Support Lead"
+  },
+  "slaPolicies": {
+    "Critical": {
+      "responseHours": 0.25,
+      "resolutionHours": 2
+    },
+    "High": {
+      "responseHours": 1,
+      "resolutionHours": 8
+    },
+    "Medium": {
+      "responseHours": 4,
+      "resolutionHours": 24
+    },
+    "Low": {
+      "responseHours": 8,
+      "resolutionHours": 48
+    }
+  },
+  "ticketFeedback": [
+    {
+      "id": "f96d227c-2fe1-4e9d-acb6-e8ecda9ade06",
+      "ticketId": "TK-200201-CRT",
+      "customerId": "cust-vip-101",
+      "customerName": "Apex Corp (Enterprise VIP)",
+      "rating": 5,
+      "comment": "Incredible turnaround time! Marcus had our payment cluster back online in under 90 minutes. Exceptional senior engineering support.",
+      "createdAt": "2026-10-06T22:10:35.005Z"
+    },
+    {
+      "id": "25dd5511-e9cc-4d6a-a4e6-3eb43700ee70",
+      "ticketId": "TK-200204-MED",
+      "customerId": "customer-demo",
+      "customerName": "Jane Cooper (Customer)",
+      "rating": 5,
+      "comment": "Mila sent the consolidated invoice within an hour. Very clear and courteous communication.",
+      "createdAt": "2026-10-10T00:10:35.005Z"
+    },
+    {
+      "id": "adf03a30-22fc-4650-a18b-0a346c4c9c06",
+      "ticketId": "TK-200205-DEL",
+      "customerId": "cust-user-601",
+      "customerName": "David Miller",
+      "rating": 4,
+      "comment": "Carrier issue was resolved well, though initial tracking took a bit of back and forth.",
+      "createdAt": "2026-10-07T23:10:35.005Z"
+    },
+    {
+      "id": "42d94501-28cd-4283-9415-54f5ad5bbd8c",
+      "ticketId": "TK-200208-REF",
+      "customerId": "cust-user-905",
+      "customerName": "Liam Vance",
+      "rating": 5,
+      "comment": "Duplicate charge was refunded promptly without hassle. Excellent service.",
+      "createdAt": "2026-10-09T00:10:35.005Z"
+    },
+    {
+      "id": "d5c3bb6e-ea6c-466b-b394-bc7e4afbbeac",
+      "ticketId": "TK-100103-H7F",
+      "customerId": "customer-demo",
+      "customerName": "Jane Cooper (Customer)",
+      "rating": 4,
+      "comment": "Replacement arrived in great condition. Thanks for handling the return smoothly.",
+      "createdAt": "2026-10-09T20:10:35.005Z"
+    }
+  ]
+}
