@@ -145,3 +145,4 @@ $env:ADMIN_BOOTSTRAP_PASSWORD = "use-a-unique-password-of-at-least-12-characters
 npm run dev
 ```
 Once bootstrapped, administrators can log in, review the queue, create additional agents, approve escalation requests, and adjust team capacities.
+
