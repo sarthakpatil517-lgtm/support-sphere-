@@ -39,9 +39,9 @@
       "resolution_deadline": "2026-10-13T21:03:56.544Z",
       "first_response_at": null,
       "resolved_at": "2026-10-11T21:03:56.544Z",
-      "response_sla_status": "Within SLA",
+      "response_sla_status": "Breached",
       "resolution_sla_status": "Met",
-      "current_risk_status": "Met",
+      "current_risk_status": "Breached",
       "created_at": "2026-10-11T21:03:56.544Z",
       "updated_at": "2026-10-11T21:03:56.544Z"
     },
@@ -80,8 +80,8 @@
       "first_response_at": "2026-10-11T21:01:28.823Z",
       "resolved_at": null,
       "response_sla_status": "Met",
-      "resolution_sla_status": "Within SLA",
-      "current_risk_status": "Within SLA",
+      "resolution_sla_status": "Breached",
+      "current_risk_status": "Breached",
       "created_at": "2026-10-11T21:01:28.712Z",
       "updated_at": "2026-10-11T21:01:28.823Z"
     },
@@ -119,9 +119,9 @@
       "resolution_deadline": "2026-10-12T05:00:58.985Z",
       "first_response_at": null,
       "resolved_at": null,
-      "response_sla_status": "Within SLA",
-      "resolution_sla_status": "Within SLA",
-      "current_risk_status": "Within SLA",
+      "response_sla_status": "Breached",
+      "resolution_sla_status": "Breached",
+      "current_risk_status": "Breached",
       "created_at": "2026-10-11T21:00:58.985Z",
       "updated_at": "2026-10-11T21:00:58.985Z"
     },
@@ -162,9 +162,9 @@
       "resolution_deadline": "2026-10-13T20:10:27.051Z",
       "first_response_at": null,
       "resolved_at": null,
-      "response_sla_status": "Within SLA",
+      "response_sla_status": "Breached",
       "resolution_sla_status": "Within SLA",
-      "current_risk_status": "Within SLA",
+      "current_risk_status": "Breached",
       "created_at": "2026-10-11T20:10:27.051Z",
       "updated_at": "2026-10-11T20:10:27.051Z"
     },
@@ -185,7 +185,7 @@
       "sla_policy": "Medium SLA Standard",
       "sla_start_time": "2026-10-11T13:21:24.077Z",
       "response_sla_status": "Breached",
-      "resolution_sla_status": "Within SLA",
+      "resolution_sla_status": "Breached",
       "current_risk_status": "Breached"
     },
     {
@@ -206,7 +206,7 @@
       "sla_policy": "Medium SLA Standard",
       "sla_start_time": "2026-10-11T01:21:13.425Z",
       "response_sla_status": "Breached",
-      "resolution_sla_status": "At Risk",
+      "resolution_sla_status": "Breached",
       "current_risk_status": "Breached"
     },
     {
@@ -300,7 +300,7 @@
       "sla_policy": "High SLA Standard",
       "sla_start_time": "2026-10-11T18:20:35.005Z",
       "response_sla_status": "Breached",
-      "resolution_sla_status": "Within SLA",
+      "resolution_sla_status": "Breached",
       "current_risk_status": "Breached"
     },
     {
@@ -430,8 +430,8 @@
       "sla_policy": "High SLA Standard",
       "sla_start_time": "2026-10-11T15:10:35.005Z",
       "response_sla_status": "Met",
-      "resolution_sla_status": "Approaching",
-      "current_risk_status": "Approaching"
+      "resolution_sla_status": "Breached",
+      "current_risk_status": "Breached"
     },
     {
       "id": "TK-200208-REF",
@@ -1026,143 +1026,42 @@
       "passwordSalt": "f6597a5f635fad7a6c372c20e2f7cc6f",
       "createdAt": "2026-10-11T21:01:28.658Z",
       "lastLoginAt": "2026-10-11T21:01:28.672Z"
+    },
+    {
+      "id": "212232c0-8164-4a0f-93a5-68fa24af3478",
+      "name": "gandharv",
+      "email": "gandharvshelake2000@gmail.com",
+      "role": "Customer",
+      "active": true,
+      "team": "",
+      "passwordHash": "2e7ad76e81a722c103b7964897ef5ba03d0a52e70310a6a44250eb524e2583be68f5835e6a57aa2a69cae5ddad644729a1dc3516fbf633f67f19d2114c239c26",
+      "passwordSalt": "84cf61fd59d7d1b73d32d2068aa7fac5",
+      "createdAt": "2026-10-12T14:57:51.510Z",
+      "lastLoginAt": "2026-10-12T14:57:51.558Z"
     }
   ],
-  "dashboardSessions": [
-    {
-      "tokenHash": "0ccb5c1a095e4c503ef8a2c38dc0298543d5e79304bb880193879e0a7ca11f96",
-      "userId": "user-admin-demo",
-      "createdAt": "2026-10-11T20:09:03.348Z",
-      "expiresAt": "2026-10-12T04:09:03.348Z"
-    },
-    {
-      "tokenHash": "e2c6edadddede352284128b0ba948887c1695eb9f1dc6ce5366299eb8cb5e67a",
-      "userId": "user-admin-demo",
-      "createdAt": "2026-10-11T20:09:03.649Z",
-      "expiresAt": "2026-10-12T04:09:03.649Z"
-    },
-    {
-      "tokenHash": "c5dba886a6b2740f9c815232ee02dda372d42cc5fe36a6f633b52d4307642c4a",
-      "userId": "user-admin-demo",
-      "createdAt": "2026-10-11T20:09:13.981Z",
-      "expiresAt": "2026-10-12T04:09:13.981Z"
-    },
-    {
-      "tokenHash": "fa83fb11e738d03985a3a8cd1351ab9b6b15c8058e2061c790e1350f77706a0f",
-      "userId": "user-admin-demo",
-      "createdAt": "2026-10-11T20:09:14.073Z",
-      "expiresAt": "2026-10-12T04:09:14.073Z"
-    },
-    {
-      "tokenHash": "c442dd41ecc6ad0b6b0114fba0f1198721fd44968eb9fd49d8d5e5b10566ac3c",
-      "userId": "1d9defc8-a8c4-4570-94e7-b414418c99b6",
-      "createdAt": "2026-10-11T20:09:49.516Z",
-      "expiresAt": "2026-10-12T04:09:49.516Z"
-    },
-    {
-      "tokenHash": "973d92d7ec27ad0112ec111a902c8827e90f13a57de97b13748bdec3761afc02",
-      "userId": "user-senior-demo",
-      "createdAt": "2026-10-11T20:10:38.814Z",
-      "expiresAt": "2026-10-12T04:10:38.814Z"
-    },
-    {
-      "tokenHash": "482cf91815c3c27a77a9424f5adf9a42fe8b0e2134244e28e5cf1a9af8ac82ad",
-      "userId": "user-admin-demo",
-      "createdAt": "2026-10-11T20:10:39.239Z",
-      "expiresAt": "2026-10-12T04:10:39.239Z"
-    },
-    {
-      "tokenHash": "e073146d50ce4fad271a234c5608a761ae8e8bc5c1de34bdec3647c7a4e5009c",
-      "userId": "user-agent-demo",
-      "createdAt": "2026-10-11T20:11:06.175Z",
-      "expiresAt": "2026-10-12T04:11:06.175Z"
-    },
-    {
-      "tokenHash": "8bf5417a05de31d1f887368f4461e26f11520ec3846e8e8216a34ae4007a546f",
-      "userId": "user-admin-demo",
-      "createdAt": "2026-10-11T20:11:23.428Z",
-      "expiresAt": "2026-10-12T04:11:23.428Z"
-    },
-    {
-      "tokenHash": "77b23eb0ab96987fcaa1c6d2829b6f9da192e544c9b48b8662f7f69e0f2a1dcb",
-      "userId": "user-admin-demo",
-      "createdAt": "2026-10-11T20:25:28.616Z",
-      "expiresAt": "2026-10-12T04:25:28.616Z"
-    },
-    {
-      "tokenHash": "fdeb764eb7bc05976bdb3e94398864c44c10de8d700fb99ecc1ac31ddbefc965",
-      "userId": "f1cb3d73-0d7a-45e2-8e4e-38ce25dcc536",
-      "createdAt": "2026-10-11T21:00:58.943Z",
-      "expiresAt": "2026-10-12T05:00:58.943Z"
-    },
-    {
-      "tokenHash": "66aa6c5921788c493a59c0d2b747bc376698b745c973f7c45e50ea0e25307bf1",
-      "userId": "fa59c857-7420-46f6-a543-690c757a35a6",
-      "createdAt": "2026-10-11T21:01:28.663Z",
-      "expiresAt": "2026-10-12T05:01:28.663Z"
-    },
-    {
-      "tokenHash": "8f67c531124bfe384b80111d662d07e487e6afdac99f347c760f39577f6652c4",
-      "userId": "user-admin-demo",
-      "createdAt": "2026-10-11T21:01:28.737Z",
-      "expiresAt": "2026-10-12T05:01:28.737Z"
-    },
-    {
-      "tokenHash": "b408c25d99aab6ead4170ebb619642bca1686b85da5209de6c2d5a1950dc3a69",
-      "userId": "customer-demo",
-      "createdAt": "2026-10-11T21:03:15.163Z",
-      "expiresAt": "2026-10-12T05:03:15.163Z"
-    },
-    {
-      "tokenHash": "d674fbe02fa355fa5dc0abdcccab329f2e3760b1f29823169cec674b1ebee994",
-      "userId": "user-admin-demo",
-      "createdAt": "2026-10-11T21:11:47.964Z",
-      "expiresAt": "2026-10-12T05:11:47.964Z"
-    },
-    {
-      "tokenHash": "98e5639a4bf12aeabd9aed6f67acdd73a06344099541c7c8f2f5e43abe37c49c",
-      "userId": "user-admin-demo",
-      "createdAt": "2026-10-11T21:18:03.087Z",
-      "expiresAt": "2026-10-12T05:18:03.087Z"
-    },
-    {
-      "tokenHash": "db47b070cb07a4bd20a7815ae62b7f30295828f9d2168c359ca8dd434b7fd584",
-      "userId": "customer-demo",
-      "createdAt": "2026-10-11T21:22:39.019Z",
-      "expiresAt": "2026-10-12T05:22:39.019Z"
-    },
-    {
-      "tokenHash": "813304bb262dff8fe65d9056faea63719dc951305bf52bab8232cb3fb9b02433",
-      "userId": "user-senior-demo",
-      "createdAt": "2026-10-11T21:22:41.761Z",
-      "expiresAt": "2026-10-12T05:22:41.761Z"
-    },
-    {
-      "tokenHash": "959016232e2538712f9be49e5a0f6af2d4e04eb29596a00de9b5c7bb6e81bc05",
-      "userId": "user-admin-demo",
-      "createdAt": "2026-10-11T21:28:49.257Z",
-      "expiresAt": "2026-10-12T05:28:49.257Z"
-    },
-    {
-      "tokenHash": "7380e4f86f0d606dea927659b7b8a0e35bff1e4d0b9fdd0e28e29e2ca49290cb",
-      "userId": "customer-demo",
-      "createdAt": "2026-10-11T21:28:58.864Z",
-      "expiresAt": "2026-10-12T05:28:58.864Z"
-    },
-    {
-      "tokenHash": "abb6f993ffc179810206312456595ceaf4f3f40bd648c4c3a27b7431d6d82e27",
-      "userId": "user-agent-demo",
-      "createdAt": "2026-10-11T21:28:58.882Z",
-      "expiresAt": "2026-10-12T05:28:58.882Z"
-    },
-    {
-      "tokenHash": "43f5e133573f8431ae3067dc1da4c77678b9b4bf08af632f4281b3564d406f16",
-      "userId": "user-senior-demo",
-      "createdAt": "2026-10-11T21:28:58.923Z",
-      "expiresAt": "2026-10-12T05:28:58.923Z"
-    }
-  ],
+  "dashboardSessions": [],
   "dashboardAudit": [
+    {
+      "id": "0c51456b-c0f6-439a-87a4-12083b867059",
+      "actorId": "212232c0-8164-4a0f-93a5-68fa24af3478",
+      "actorName": "gandharv",
+      "action": "Signed out",
+      "targetId": "212232c0-8164-4a0f-93a5-68fa24af3478",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-12T14:58:21.217Z"
+    },
+    {
+      "id": "576420d6-576d-4b2b-a18a-03bf81145600",
+      "actorId": "212232c0-8164-4a0f-93a5-68fa24af3478",
+      "actorName": "gandharv",
+      "action": "Customer registered",
+      "targetId": "212232c0-8164-4a0f-93a5-68fa24af3478",
+      "outcome": "success",
+      "details": "",
+      "timestamp": "2026-10-12T14:57:51.576Z"
+    },
     {
       "id": "16d28c45-78a1-4ed4-8d12-1e57ef833423",
       "actorId": "user-admin-demo",
