@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="public/logo-full.png" alt="SupportSphere Logo" width="280" />
+</p>
+
 # Predictive Customer Support Triage & Sentiment Router
 
 An enterprise-grade, centralized customer support ticketing and automated triage platform designed to eliminate generic, first-come, first-served queue bottlenecks.
